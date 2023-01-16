@@ -1,0 +1,12 @@
+<main>
+    <div class="row text-center" *ngFor="let todo of todos">
+
+        <app-todo >     
+            [data]="todo"
+        </app-todo>
+
+    </div>
+
+
+    <button class="add-button" type="button" routerLink="add-todo">+</button>
+</main>
